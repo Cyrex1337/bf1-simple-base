@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{57ef192f-f792-41d4-b393-ca5125a60e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking\VirtualHook">
+      <UniqueIdentifier>{35cc432e-52b9-49c5-84f8-77b8bf972718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defines">
+      <UniqueIdentifier>{b6443c27-2d28-4915-be6c-82cef97adb67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{9b6ba0e8-8bf5-46dd-92f2-90c9e0483630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking\X86Detour">
+      <UniqueIdentifier>{cdb6dcee-c08d-4d16-a2de-b5fca865c8c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking\X64Detour">
+      <UniqueIdentifier>{9109c179-d279-42d5-89f3-fa29b557ed8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking\VEH">
+      <UniqueIdentifier>{6eda9f6f-2d9a-4e97-86b5-7a33238e4709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking\IAT">
+      <UniqueIdentifier>{4199ba8c-ffe4-4359-beb5-aaa4d6ce6e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking\EAT">
+      <UniqueIdentifier>{5b8a216d-5128-4177-8113-ee8700007715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{179d9c39-e82e-4c37-9c1c-200c81123542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\eastl">
+      <UniqueIdentifier>{eb0f7195-321a-4266-92b7-015f3b5098fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\FB">
+      <UniqueIdentifier>{cc465995-f5ca-41a8-aa53-df7ea175c972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils">
+      <UniqueIdentifier>{b5ae19e1-4b36-4a44-affb-e7904c5b8af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Hooks">
+      <UniqueIdentifier>{08c52c8a-ed47-4b50-8e91-0a831086c5ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VirtualHook.hpp">
+      <Filter>Hooking\VirtualHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.hpp">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="X86Detour.h">
+      <Filter>Hooking\X86Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="X64Detour.hpp">
+      <Filter>Hooking\X64Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="VEH.hpp">
+      <Filter>Hooking\VEH</Filter>
+    </ClInclude>
+    <ClInclude Include="IAT.hpp">
+      <Filter>Hooking\IAT</Filter>
+    </ClInclude>
+    <ClInclude Include="EAT.hpp">
+      <Filter>Hooking\EAT</Filter>
+    </ClInclude>
+    <ClInclude Include="eastl_includes.hpp">
+      <Filter>SDK\eastl</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientGameContext.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakPtr.hpp">
+      <Filter>SDK\eastl</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>SDK\eastl</Filter>
+    </ClInclude>
+    <ClInclude Include="Tuple2.hpp">
+      <Filter>SDK\eastl</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderer.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderView.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="DXRenderer.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="OnlineManager.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPlayerManager.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPlayer.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSoldierEntity.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSoldierHealthComponent.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSoldierWeaponsComponent.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientAimEntity.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSoldierWeapon.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSoldierPrediction.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierWeaponData.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponFiringData.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierAimingSimulationData.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierWeaponBlueprint.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientWeapon.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponModifier.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="FiringFunctionData.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletEntityData.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponFiring.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientActiveWeaponHandler.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientAnimatedSoldierWeaponHandler.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSoldierAimingSimulation.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="FpsAimer.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>SDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.hpp">
+      <Filter>Main\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugRenderer2.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+    <ClInclude Include="Color32.hpp">
+      <Filter>SDK\FB</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VirtualHook.cpp">
+      <Filter>Hooking\VirtualHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="X86Detour.cpp">
+      <Filter>Hooking\X86Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="X64Detour.cpp">
+      <Filter>Hooking\X64Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="VEH.cpp">
+      <Filter>Hooking\VEH</Filter>
+    </ClCompile>
+    <ClCompile Include="IAT.cpp">
+      <Filter>Hooking\IAT</Filter>
+    </ClCompile>
+    <ClCompile Include="EAT.cpp">
+      <Filter>Hooking\EAT</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>SDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Main\Hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
