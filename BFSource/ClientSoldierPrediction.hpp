@@ -6,9 +6,9 @@ namespace fb
 	{
 	public:
 		char _0x0000[ 48 ];
-		D3DXVECTOR3 m_Position; //0x0030 
+		DirectX::XMFLOAT3 m_Position; //0x0030 
 		char _0x003C[ 20 ];
-		D3DXVECTOR3 m_Velocity; //0x0050 
+		DirectX::XMFLOAT3 m_Velocity; //0x0050 
 		char _0x005C[ 32 ];
 		BYTE m_Pose; //0x007C 
 		char _0x007D[ 3 ];

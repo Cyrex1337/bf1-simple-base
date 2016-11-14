@@ -13,6 +13,6 @@
 namespace Utils
 {
 	void SpawnConsole( const char* title = nullptr );
-	bool WorldToScreen( const D3DXVECTOR3& world_point, D3DXVECTOR3& out );
+	bool WorldToScreen( const DirectX::XMFLOAT3& world_point, DirectX::XMFLOAT3& out );
 	void HandleDXScreenshot( );
 }

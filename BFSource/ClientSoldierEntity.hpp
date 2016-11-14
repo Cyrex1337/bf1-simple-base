@@ -5,7 +5,7 @@ namespace fb
 	class ClientSoldierEntity
 	{
 	public:
-		bool GetBonePos( unsigned int bone_id, D3DXVECTOR3& out )
+		bool GetBonePos( unsigned int bone_id, DirectX::XMFLOAT3& out )
 		{
 			*reinterpret_cast< byte* >( reinterpret_cast< uintptr_t >( this ) + 0x1A ) = 161;
 			auto ragdoll_component = *reinterpret_cast< uintptr_t* >( reinterpret_cast< uintptr_t >( this ) + 0x460 );
@@ -18,8 +18,8 @@ namespace fb
 			if ( !IsValidPtr( quat ) )
 				return false;
 
-			D3DXVECTOR3 tmp;
-			tmp = *reinterpret_cast< D3DXVECTOR3* >( quat + bone_id * 0x20 );
+			DirectX::XMFLOAT3 tmp;
+			tmp = *reinterpret_cast< DirectX::XMFLOAT3* >( quat + bone_id * 0x20 );
 			out.x = tmp.x;
 			out.y = tmp.y;
 			out.z = tmp.z;

@@ -1,0 +1,21 @@
+﻿  EAT.cpp
+  Hooks.cpp
+Hooks.cpp(75): warning C4244: 'argument': conversion from 'float' to 'const int32_t', possible loss of data
+Hooks.cpp(77): warning C4244: 'argument': conversion from 'float' to 'const int32_t', possible loss of data
+d:\chromedl\userimages\bf1-simple-base-master\bf1-simple-base-master\bfsource\vector.hpp(13): warning C4244: 'return': conversion from 'uintptr_t' to 'unsigned int', possible loss of data
+  d:\chromedl\userimages\bf1-simple-base-master\bf1-simple-base-master\bfsource\vector.hpp(12): note: while compiling class template member function 'unsigned int eastl::vector<fb::ClientPlayer *>::size(void) const'
+  Hooks.cpp(42): note: see reference to function template instantiation 'unsigned int eastl::vector<fb::ClientPlayer *>::size(void) const' being compiled
+  Hooks.cpp(42): note: see reference to class template instantiation 'eastl::vector<fb::ClientPlayer *>' being compiled
+  IAT.cpp
+  Main.cpp
+  Utils.cpp
+  VEH.cpp
+  VirtualHook.cpp
+  X64Detour.cpp
+d:\chromedl\userimages\bf1-simple-base-master\bf1-simple-base-master\bfsource\Defines.hpp(6): warning C4312: 'reinterpret_cast': conversion from 'unsigned int' to 'void *' of greater size
+  X86Detour.cpp
+d:\chromedl\userimages\bf1-simple-base-master\bf1-simple-base-master\bfsource\Defines.hpp(6): warning C4312: 'reinterpret_cast': conversion from 'unsigned int' to 'void *' of greater size
+  Generating code
+  All 366 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BFSource.vcxproj -> D:\ChromeDL\userimages\bf1-simple-base-master\bf1-simple-base-master\x64\Release\BFSource.dll

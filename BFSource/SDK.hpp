@@ -3,7 +3,7 @@
 #include <Windows.h>
 #include <stdio.h>
 #include <D3D11.h>
-#include <D3DX10math.h>
+#include <DirectXMath.h>
 
 #include "Defines.hpp"
 #include "eastl_includes.hpp"

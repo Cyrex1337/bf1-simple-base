@@ -1,0 +1,8 @@
+﻿  Hooks.cpp
+d:\chromedl\userimages\bf1-simple-base-master\bf1-simple-base-master\bfsource\hooks.cpp(75): warning C4244: 'argument': conversion from 'float' to 'const int32_t', possible loss of data
+d:\chromedl\userimages\bf1-simple-base-master\bf1-simple-base-master\bfsource\hooks.cpp(77): warning C4244: 'argument': conversion from 'float' to 'const int32_t', possible loss of data
+d:\chromedl\userimages\bf1-simple-base-master\bf1-simple-base-master\bfsource\vector.hpp(13): warning C4244: 'return': conversion from 'uintptr_t' to 'unsigned int', possible loss of data
+  d:\chromedl\userimages\bf1-simple-base-master\bf1-simple-base-master\bfsource\vector.hpp(12): note: while compiling class template member function 'unsigned int eastl::vector<fb::ClientPlayer *>::size(void) const'
+  d:\chromedl\userimages\bf1-simple-base-master\bf1-simple-base-master\bfsource\hooks.cpp(42): note: see reference to function template instantiation 'unsigned int eastl::vector<fb::ClientPlayer *>::size(void) const' being compiled
+  d:\chromedl\userimages\bf1-simple-base-master\bf1-simple-base-master\bfsource\hooks.cpp(42): note: see reference to class template instantiation 'eastl::vector<fb::ClientPlayer *>' being compiled
+  BFSource.vcxproj -> D:\ChromeDL\userimages\bf1-simple-base-master\bf1-simple-base-master\x64\Debug\BFSource.dll
