@@ -15,7 +15,7 @@ void Utils::SpawnConsole( const char* title )
 }
 
 // Transforms a 3D world point in a 4D homogeneous screen point 
-bool Utils::WorldToScreen( const D3DXVECTOR3& world_point, D3DXVECTOR3& out )
+bool Utils::WorldToScreen( const DirectX::XMFLOAT3& world_point, DirectX::XMFLOAT3& out )
 {
 	auto view_x_projection = fb::GameRenderer::Instance( )->m_pRenderView->viewProj;
 
