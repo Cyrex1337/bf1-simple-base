@@ -58,13 +58,6 @@ void ESP( )
 		auto position_foot = soldier->m_pClientSoldierPrediction->m_Position;
 		DirectX::XMFLOAT3 position_head, position_foot_screen, position_head_screen;
 		soldier->GetBonePos( BoneIds::BONE_Head, position_head );
-		
-		if (is_visible)		
-			soldier->m_EngineChams = 240;//green
-		else
-			soldier->m_EngineChams = 242; //red
-		
-		soldier->m_RenderFlags &= 0xFFF7FFFF;
 
 		if ( Utils::WorldToScreen( position_foot, position_foot_screen ) && Utils::WorldToScreen( position_head, position_head_screen ) )
 		{
